@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app-wrapper {
+	margin: 10px auto;
+	width: 850px;
+	position: relative;
+}
+
+.form-wrapper {
+	width: 850px;
+	height: 150px;
+}
+
+.form-wrapper__btn {
+	width: 450px !important;
+	margin: 5px !important;
+}
+
+.form-wrapper__btn_primary {
+	width: 130px;
+	margin-left: 70px;
+	text-align: center;
+}
+
+.header-notify {
+	height: 60px;
+	background-color: #ccc;
+	margin: 10px auto;
+	border: 1px solid #000;
+	position: relative;
+}
+
+.header-notify__counter {
+	position: absolute;
+	right: 8px;
+	padding: 0 2px;
+	top: 7px;
+	box-sizing: border-box;
+	text-align: center;
+	width: 45px;
+	height: 46px;
+	line-height: 46px;
+	background-color: #888;
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.events-list {
+	list-style-type: none;
+	background-color: #ccc;
+	border: 1px solid #000;
+	width: 200px;
+	padding-left: 15px;
+	position: absolute;
+	right: 0;
+	top: 50px;
+
+	-webkit-animation: fade-in .3s linear 1, move-up .3s linear 1;
+    -moz-animation: fade-in .3s linear 1, move-up .3s linear 1;
+    -ms-animation: fade-in .3s linear 1, move-up .3s linear 1;
+}
+
+.events-list__item-title {
+	font-weight: bold;
+	font-size: 16px;
+	color: #000;
+	margin: 0 0 2px 0;
+	padding: 4px;
+	margin-left: -15px;
+	background-color: #fff;
+}
+
+.events-list__item-title_readed {
+	background-color: #ccc;
+}
+
+.events-list__item-time-title {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.events-list__close {
+	margin: 12px 8px 5px;
+	font-size: 14px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.events-list__error {
+	margin: 8px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+@-webkit-keyframes fade-in {
+	from   { opacity: 0; }
+	to { opacity: 1; }
+}
+@-moz-keyframes fade-in {
+	from   { opacity: 0; }
+	to { opacity: 1; }
+}
+@-ms-keyframes fade-in {
+	from   { opacity: 0; }
+	to { opacity: 1; }
+}
+@-webkit-keyframes move-down {
+	from   { bottom: 0px; }
+	to { bottom: 200px; }
+}
+@-moz-keyframes move-down {
+	from   { bottom: 0px; }
+	to { bottom: 200px; }
+}
+@-ms-keyframes move-up {
+	from   { bottom: 30px; }
+	to { bottom: 42px; }
+}
